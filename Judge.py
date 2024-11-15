@@ -40,18 +40,40 @@ class Judge:
                 ans=player.ask_zhipu("不能直接说出词语本身，请重新描述。")
                 
             content_history.append([player.order,ans])
-
+        
+        votes=[]
         for player in self.players:
             former_utterance=make_former_utterance(content_history)
             ans=player.vote(former_utterance)
+            votes.append(ans)
+        
+        out_index=self.count_votes(votes)
+        print("玩家"+str(out_index)+"淘汰")
 
     def check_violation(self,ans,player):
         
         if player.keyword in ans:
             return True
         else:
-            
             return False
+    
+    
+    def count_votes(self,votes):
+        all_players=dict()
+        for play in self.players:
+            all_players[play.order]=0
+        
+        print("vots")
+        for vote in votes:
+            for player in all_players:
+                if str(player) in vote:
+                    all_players[player]+=1
+                    
+        out_index=max(all_players,key=all_players.get)
+        print(all_players)
+        return out_index
+        
+    
 
 def make_former_utterance(content_history):
     former_utterance = ""

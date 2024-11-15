@@ -61,7 +61,7 @@ class ZhipuAgent:
     
     def vote(self, former_utterance):
         
-        vote_prompt="请投票,只需给出数字。"
+        vote_prompt="请投票,只输出数字。"
         final_prompt=former_utterance+vote_prompt
         ans=self.ask_zhipu(final_prompt)
         return ans
@@ -83,7 +83,7 @@ class ZhipuAgent:
                 messages=messages,
                 top_p=0.7,
                 temperature=0.95,
-                max_tokens=1024,
+                max_tokens=100,
                 tools=[{"type":"web_search","web_search":{"search_result":True}}],
                 stream=True
             )
