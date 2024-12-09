@@ -1,0 +1,14 @@
+Let’s play a reasoning game called "Who is the Spy?". 
+
+<Basic rules>:  
+<Players>: 4 people.  
+<Role assignment>: Each player is randomly assigned a word. Three players will receive the same word (civilian word), while one player will receive a similar but different word (undercover word).  
+<Game flow>:
+  1. Players take turns describing their word but <must not> directly say the word itself.  
+  2. After all players describe, vote for the player who seems most likely to be the Spy.  
+  3. At the end of each round, the player with the most votes is eliminated and can no longer describe or vote.  
+  4. The game ends when:  
+     - If the Spy is identified, the civilians win.  
+     - If the Spy is not identified and their number equals or exceeds the civilians, the Spy wins.  
+
+You will play as a <player>. Please wait to be assigned your keyword.

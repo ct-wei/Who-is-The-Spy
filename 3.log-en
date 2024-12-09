@@ -1,0 +1,70 @@
+2024-11-15 14:58:51,301 - 3 - INFO - **********JUDGER**********  
+Let’s play a reasoning game called "Who is the Spy?". 
+
+<Basic rules>:  
+<Players>: 4 people.  
+<Role assignment>: Each player is randomly assigned a word. Three players will receive the same word (civilian word), while one player will receive a similar but different word (undercover word).  
+<Game flow>:
+  1. Players take turns describing their word but <must not> directly say the word itself.  
+  2. After all players describe, vote for the player who seems most likely to be the Spy.  
+  3. At the end of each round, the player with the most votes is eliminated and can no longer describe or vote.  
+  4. The game ends when:  
+     - If the Spy is identified, the civilians win.  
+     - If the Spy is not identified and their number equals or exceeds the civilians, the Spy wins.  
+
+You will play as a <player>. Please wait to be assigned your keyword.
+
+2024-11-15 14:58:54,158 - 3 - INFO - **********PLAYER3**********  
+A keyword has been assigned to you. You are now playing as a player. Your keyword is "**book**".  
+
+You may now begin the game. Remember, your task is to describe this word without directly saying "book". You may start describing your word.  
+
+
+2024-11-15 14:59:13,172 - 3 - INFO - **********JUDGER**********  
+Player 1 said: “Apologies, let me rephrase:  
+
+'This character plays an important administrative role in the school, responsible for maintaining order while being a trusted advisor to both teachers and students. They often wear uniforms and are busy moving between classrooms and offices, serving as a link between students and the school leadership.'”  
+
+Player 2 said: “Understood, I will try again to avoid directly mentioning the keyword. Here’s my description:  
+
+'In schools, there is a group of people who take on the important task of managing students’ daily activities. They usually wear uniform attire, moving between classrooms and offices. They are important guides in students’ learning and lives, not only teaching knowledge but also caring for their growth and mental health. They are a bridge between the school and families, having a profound impact on the overall development of students.'”  
+
+You are Player 3. Your keyword is **counselor**. Please begin describing.  
+
+
+2024-11-15 14:59:16,687 - 3 - INFO - **********PLAYER3**********  
+As Player 3, my keyword is “counselor.” Here’s my description:  
+
+“In schools, there is a special presence. They are not only mentors and friends to students but also important bridges connecting students and school administration. They often provide after-class guidance, answering questions, caring for students’ study and life conditions. They are not teachers but share the responsibility of educating students. Their work, though understated, has an irreplaceable impact on students’ growth. They are like campus guardians, quietly...”  
+
+
+2024-11-15 14:59:16,688 - 3 - INFO - **********JUDGER**********  
+You cannot directly say the word itself. Please rephrase your description.  
+
+
+2024-11-15 14:59:18,666 - 3 - INFO - **********PLAYER3**********  
+Of course, I will rephrase:  
+
+“In the corners of the campus, there are people who patiently listen and carefully guide. They do not teach from the podium but are often found in offices solving students’ problems. They are both mentors for students’ minds and participants in school decisions. With their knowledge and experience, they provide direction for students. Their presence is crucial for student development, yet they often go unnoticed.”  
+
+2024-11-15 14:59:38,804 - 3 - INFO - **********JUDGER**********  
+Player 1 said: “Apologies, let me rephrase:  
+
+'This character plays an important administrative role in the school, responsible for maintaining order while being a trusted advisor to both teachers and students. They often wear uniforms and are busy moving between classrooms and offices, serving as a link between students and the school leadership.'”  
+
+Player 2 said: “Understood, I will try again to avoid directly mentioning the keyword. Here’s my description:  
+
+'In schools, there is a group of people who take on the important task of managing students’ daily activities. They usually wear uniform attire, moving between classrooms and offices. They are important guides in students’ learning and lives, not only teaching knowledge but also caring for their growth and mental health. They are a bridge between the school and families, having a profound impact on the overall development of students.'”  
+
+Player 3 said: “Of course, I will rephrase:  
+
+'In the corners of the campus, there are people who patiently listen and carefully guide. They do not teach from the podium but are often found in offices solving students’ problems. They are both mentors for students’ minds and participants in school decisions. With their knowledge and experience, they provide direction for students. Their presence is crucial for student development, yet they often go unnoticed.'”  
+
+Player 4 said: “Of course, I will rephrase:  
+
+'In schools, there is a role that takes on both management and guidance responsibilities. They frequently move between classrooms and offices, closely caring for students’ learning and lives. They are not only authoritative figures for students but also serve as a bridge between school and family. Their presence is like an indispensable compass on campus, guiding students as they navigate the sea of knowledge.'”  
+
+Please vote. Output only a number.  
+
+2024-11-15 14:59:39,657 - 3 - INFO - **********PLAYER3**********  
+3  
